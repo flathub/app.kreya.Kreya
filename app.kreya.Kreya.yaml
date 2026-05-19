@@ -5,6 +5,8 @@ sdk: org.gnome.Sdk
 command: kreya
 copy-icon: true
 separate-locales: false
+tags: 
+  - proprietary
 finish-args:
   - --share=network
   - --share=ipc
