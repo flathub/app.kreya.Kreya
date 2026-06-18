@@ -20,8 +20,8 @@ modules:
       - type: archive
         only-arches:
           - x86_64
-        url: https://stable-downloads.kreya.app/1.19.1/Kreya-app-linux-x64.tar.gz
-        sha256: 0ccdf48abd9cc41d73054412fc63e40b32bd31468404519aef7f1ee083d0f805
+        url: https://stable-downloads.kreya.app/1.20.2/Kreya-app-linux-x64.tar.gz
+        sha256: 2ce8c347d9746b76ca21eee9c3621fcc54be1451200a5b521d470a773de14892
         dest: kreya
         x-checker-data:
           type: html
@@ -32,8 +32,8 @@ modules:
       - type: archive
         only-arches:
           - aarch64
-        url: https://stable-downloads.kreya.app/1.19.1/Kreya-app-linux-arm64.tar.gz
-        sha256: 54fe10edaf78d8a1d2311038204ee810eb77a47ba617b38242c7f737986f8809
+        url: https://stable-downloads.kreya.app/1.20.2/Kreya-app-linux-arm64.tar.gz
+        sha256: 7864441a7c1aa9bd1c7adf29a191d8cebc028d147f677a21788f834d2a8c7a25
         dest: kreya
         x-checker-data:
           type: html
