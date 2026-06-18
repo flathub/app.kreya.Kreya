@@ -25,7 +25,7 @@ modules:
         dest: kreya
         x-checker-data:
           type: html
-          url: https://kreya.app/downloads
+          url: https://stable-downloads.kreya.app/latest/version.txt
           version-pattern: ([\d]+\.[\d]+\.[\d]+)
           url-template: https://stable-downloads.kreya.app/$version/Kreya-app-linux-x64.tar.gz
           is-main-source: true
@@ -37,6 +37,6 @@ modules:
         dest: kreya
         x-checker-data:
           type: html
-          url: https://kreya.app/downloads
+          url: https://stable-downloads.kreya.app/latest/version.txt
           version-pattern: ([\d]+\.[\d]+\.[\d]+)
           url-template: https://stable-downloads.kreya.app/$version/Kreya-app-linux-arm64.tar.gz
