@@ -8,8 +8,7 @@ separate-locales: false
 finish-args:
   - --share=network
   - --share=ipc
-  - --socket=wayland
-  - --socket=fallback-x11
+  - --socket=x11
   - --device=dri
 modules:
   - name: kreya
